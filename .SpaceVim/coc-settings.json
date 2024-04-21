@@ -17,6 +17,10 @@
   "suggest": {
     "autoImports": true
   },
+  {
+    "python.analysis.typeCheckingMode": "basic",
+    "python.pythonPath": "/usr/local/bin/python"
+  },
   "coc.preferences.formatOnSaveFiletypes": [
     "typescript",
     "javascript",
