@@ -1,0 +1,29 @@
+{
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    },
+    "typescript": {
+      "command": "rn-ts-language-server",
+      "filetypes": ["typescriptreact", "typescript"]
+    },
+    "javascript": {
+      "command": "rn-ts-language-server",
+      "filetypes": ["javascriptreact", "javascript"]
+    }
+  },
+  "suggest": {
+    "autoImports": true
+  },
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript",
+    "javascript",
+    "typescriptreact",
+    "javascriptreact",
+    "json",
+    "css",
+    "markdown"
+  ]
+}
