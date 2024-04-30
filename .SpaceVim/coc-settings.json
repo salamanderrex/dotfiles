@@ -4,23 +4,13 @@
       "command": "gopls",
       "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
       "filetypes": ["go"]
-    },
-    "typescript": {
-      "command": "rn-ts-language-server",
-      "filetypes": ["typescriptreact", "typescript"]
-    },
-    "javascript": {
-      "command": "rn-ts-language-server",
-      "filetypes": ["javascriptreact", "javascript"]
     }
   },
   "suggest": {
     "autoImports": true
   },
-  {
-    "python.analysis.typeCheckingMode": "basic",
-    "python.pythonPath": "/usr/local/bin/python"
-  },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.pythonPath": "/usr/local/bin/python",
   "coc.preferences.formatOnSaveFiletypes": [
     "typescript",
     "javascript",
